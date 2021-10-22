@@ -1,0 +1,108 @@
+*{
+    padding: 10px;
+}
+.logo{
+    color: maroon;
+    font-size: 5rem;
+  font-style: oblique;
+    
+}
+header{
+    background-image: url(Images/IMG-20211014-WA0077.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: 60% 40%;
+    justify-content: space-evenly;
+   
+    
+}
+h2 {
+    position: absolute;
+    font-size: 2rem;
+    color: white;
+    font-style: oblique;
+    background-color:indigo;
+}
+ul{
+   
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    color: maroon;
+    font-size: 2rem;
+    font-style: italic;
+}
+li{
+    list-style-type: none;
+    padding:30px;
+
+}
+a{
+    text-decoration: none;
+    color: maroon;
+}
+
+section{
+  display: flex;
+  padding-left: 2px;
+
+
+   
+}
+.bags{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4, 5px 1fr) 100px;
+    padding: 0px;
+    
+}
+button{
+    background-color: purple;
+    color: white;
+    border: 3px solid black;
+    border-radius: 30%;
+    padding: 5px;
+    box-shadow: 5px 5px magenta;
+}
+button:hover{
+    background-color: black;
+    color: gold;
+    box-shadow: 5px 5px;
+    -webkit-transition: max-width 1s;
+    transition: max-width 1s;
+    display: inline-flex;
+}
+img{
+    border: 2px maroon;
+    height: 300px;
+    width: 250px;
+    border-radius: 5px;
+}
+img:hover{
+-webkit-filter: blur(1px);
+filter: blur(1px);
+}
+.my styled card{
+    border: 2px solid grey;
+}
+.hairties{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 20px 1fr) 300px;
+}
+label{
+    color: blue;
+
+}
+body{
+    background-color: lavenderblush;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 40%;
+}
+footer{
+    color: whitesmoke;
+    background-color: black;
+    height: 100px;
+}
